@@ -22,7 +22,8 @@ Frontend: HTML, CSS (with Bootstrap or any simple framework for styling), jQuery
 Folder Structure
 We'll follow the MVC pattern.
 
-`to-do-app/
+```bash
+to-do-app/
 │
 ├── app.py                # Main Flask app
 ├── models.py             # Defines database models
@@ -37,6 +38,6 @@ We'll follow the MVC pattern.
 │   ├── register.html     # Registration form
 ├── instance/             # Holds the SQLite database
 │   └── to-do-app.db      # SQLite database file
-└── .env                  # Environment variables (e.g., secret keys)`
+└── .env                  # Environment variables (e.g., secret keys)```
 
 
